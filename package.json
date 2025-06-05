@@ -4,7 +4,8 @@
   "description": "Command Line Interface (CLI) for FrappeJS",
   "main": "cli.js",
   "repository": "https://github.com/anto-christo/frappejs-cli.git",
-  "author": "anto-christo <anto.christo.20@gmail.com>",
+  "keywords": ["frappe", "erpnext", "docker", "cli", "alazab"],
+  "author": "Alazab Tech Team",
   "license": "MIT",
   "bin": {
     "frappe": "scripts/index.js"
