@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  erpnext:
+    image: alazab-group/frappe_docker:latest
+    depends_on:
+      - redis
+      - mariadb
+
+  frappe-cli:
+    build: 
+      context: https://github.com/alazab-group/frappejs-cli.git
+    environment:
+      - FRAPPE_PATH=/home/frappe/frappe-bench
